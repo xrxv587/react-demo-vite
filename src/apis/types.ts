@@ -7,3 +7,8 @@ export type TodoItem = {
 	isDone: boolean;
 }
 export type Todo = TodoItem[];
+
+export type User = {
+	username: string,
+	userId: string
+}

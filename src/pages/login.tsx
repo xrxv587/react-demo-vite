@@ -11,7 +11,7 @@ const Login: FC = () => {
 	const handleFinish = (loginInfo: LoginType) => {
 		console.log('finish values are =>', loginInfo);
 		// TODO 登录逻辑
-		// login(loginInfo);
+		login(loginInfo);
 		navigate('/');
 	}
 	return (
